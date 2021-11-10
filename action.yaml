@@ -1,6 +1,9 @@
 name:               "Micker Rsync Deploy"
 author:             Micker
 description:        "Rsync Deploy"
+branding:
+  icon:             arrow-left
+  color:            blue
 inputs:
   DEPLOY_KEY:
     description:    "Deploy key"
