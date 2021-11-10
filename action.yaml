@@ -1,4 +1,4 @@
-name:               "Rsync Deploy"
+name:               "Micker Rsync Deploy"
 author:             Micker
 description:        "Rsync Deploy"
 inputs:
