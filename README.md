@@ -1,3 +1,4 @@
+```
 - name: deploy to server
         uses: AEnterprise/rsync-deploy@v1.0
         env:
@@ -8,3 +9,4 @@
           SERVER_IP: ${{ secrets.SERVER_IP }}
           USERNAME: ${{ secrets.USERNAME }}
           SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
+```
