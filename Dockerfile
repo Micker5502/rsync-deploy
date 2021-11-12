@@ -5,6 +5,4 @@ RUN apt -yq install rsync openssh-client
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
-RUN pwd
-WORKDIR $PROJECT_NAME
 ENTRYPOINT ["/entrypoint.sh"]
