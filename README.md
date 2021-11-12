@@ -9,4 +9,5 @@
           SERVER_IP: ${{ secrets.SERVER_IP }}
           USERNAME: ${{ secrets.USERNAME }}
           SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
+          PROJECT_NAME: "project name"
 ```
