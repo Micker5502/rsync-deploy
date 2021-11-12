@@ -23,6 +23,9 @@ inputs:
   SERVER_DESTINATION:
     description:    "Serevr file location"
     required:       true
+  PROJECT_NAME:
+    description:    "Project Name"
+    required:       true
 
 runs:
   using:            'docker'
@@ -34,3 +37,4 @@ runs:
     - ${{ inputs.SERVER_IP }}
     - ${{ inputs.USERNAME }}
     - ${{ inputs.SERVER_DESTINATION }}
+    - ${{ inputs.PROJECT_NAME}}
